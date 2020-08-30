@@ -1,0 +1,173 @@
+.everything{
+    background: hsla(265, 53%, 29%, 1);
+
+    background: linear-gradient(90deg, hsla(265, 53%, 29%, 1) 0%, hsla(24, 93%, 73%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(265, 53%, 29%, 1) 0%, hsla(24, 93%, 73%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(265, 53%, 29%, 1) 0%, hsla(24, 93%, 73%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#432371", endColorstr="#faae7b", GradientType=1 );
+}
+
+h1.name{
+    color:white;
+}
+
+.header{
+    font-family: cursive;
+    background-color: aqua;
+    background: #432371;
+    color:white;
+    padding:8px;
+    margin:10px
+}
+.many{
+    background-color: #754272;
+    justify-content: center;
+    justify-content: space-around;
+    display:flex;
+    text-align: center;
+    padding:8px;
+    margin:10px
+}
+a:link{
+    color:white;
+}
+a:visited{
+    color:oldlace;
+}
+
+.everything{
+    display:flexbox;
+    flex-wrap: wrap;
+    justify-content: first baseline;
+    border:black;
+
+}
+.itemCam{
+    position : relative;
+    border: black;
+    /*positioned relative to its normal position */
+    
+}
+.itemCam p{
+    position:absolute;
+    /*realtive to teh first position - non static element*/
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    opacity: 0 ;
+}
+.itemCam:hover p{
+    opacity: 1; 
+} 
+.itemCam:hover img{ 
+    opacity: 0.33; 
+}
+
+
+.itemCham{
+    position : relative;
+    /*positioned relative to its normal position */
+    
+}
+.itemCham p{
+    position:absolute;
+    /*realtive to teh first position - non static element*/
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    opacity: 0 ;
+}
+.itemCham:hover p{
+    opacity: 1; 
+} 
+.itemCham:hover img{ 
+    opacity: 0.33; 
+}
+
+
+.itemPan{
+    position : relative;
+    /*positioned relative to its normal position */
+    
+}
+.itemPan p{
+    position:absolute;
+    /*realtive to teh first position - non static element*/
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    opacity: 0 ;
+}
+.itemPan:hover p{
+    opacity: 1; 
+} 
+.itemPan:hover img{ 
+    opacity: 0.33; 
+}
+
+
+.itemTed{
+    position : relative;
+    /*positioned relative to its normal position */
+    
+}
+.itemTed p{
+    position:absolute;
+    /*realtive to teh first position - non static element*/
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    opacity: 0 ;
+}
+.itemTed:hover p{
+    opacity: 1; 
+} 
+.itemTed:hover img{ 
+    opacity: 0.33; 
+}
+
+
+.itemPie{
+    position : relative;
+    /*positioned relative to its normal position */
+    
+}
+.itemPie p{
+    position:absolute;
+    /*realtive to teh first position - non static element*/
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    opacity: 0 ;
+}
+.itemPie:hover p{
+    opacity: 1; 
+} 
+.itemPie:hover img{ 
+    opacity: 0.33; 
+}
+
+
+
+.itemCi{
+    position : relative;
+    /*positioned relative to its normal position */
+    
+}
+.itemCi p{
+    position:absolute;
+    /*realtive to teh first position - non static element*/
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    opacity: 0 ;
+}
+.itemCi:hover p{
+    opacity: 1; 
+} 
+.itemCi:hover img{ 
+    opacity: 0.33; 
+}
